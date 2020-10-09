@@ -27,4 +27,3 @@ Feel free to be creative with your solutions, but do follow the CRISP-DM process
   Create a Github repository to share your code and data wrangling/modeling techniques, with a technical audience in mind
   Create a blog post to share your questions and insights with a non-technical audience
   Your deliverables will be a Github repo and a blog post. Use the rubric here to assist in successfully completing this project!
-###################################################################################################################################################################################
