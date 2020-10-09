@@ -34,6 +34,6 @@ https://www.kaggle.com/jmmvutu/summer-products-and-sales-in-ecommerce-wish
 
 ## Results<a name="results"></a>
 
-Results are posted on this link: https://medium.com/@akshay.mahesh.jain/sales-of-summer-clothes-on-e-commerce-platform-wish-b9668d4a44f4
+Results are posted on the Medium blog. Here's the link: https://medium.com/@akshay.mahesh.jain/sales-of-summer-clothes-on-e-commerce-platform-wish-b9668d4a44f4
 
 
