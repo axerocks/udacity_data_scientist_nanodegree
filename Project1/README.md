@@ -9,26 +9,28 @@
 
 ## Installation <a name="installation"></a>
 
-You'll need to install fuzzywuzzy library for doing string-to-string matching. All other standard libraries such as numpy,pandas, matplotlib, and scikit learn are needed as well. The code should run with no issues using Python versions 3.*.
+You'll need to install fuzzywuzzy library for doing string-to-string matching. For additional details click on the link : https://github.com/seatgeek/fuzzywuzzy
+All other standard libraries such as numpy,pandas, matplotlib, and scikit learn are needed as well. The code should run with no issues using Python versions 3.*.
 
 ## Project Motivation<a name="motivation"></a>
 
-For this project, I was interestested in using Stack Overflow data from 2017 to better understand:
+For this project, I used a dataset from Kaggle which was originally scraped from Wish E-Commerce Platform. It contains product listings, products ratings, sales performance, and merchant/supplier information if you type "Summer" in the search field of the platform.
 
-1. How other developers suggested breaking into the field (what education to pursue)?
-2. What factors about an individual contributed to salary?
-3. How bias played a role in the suggestions of developers for how to break into the field?
-4. What was the state of bootcamps for assisting individuals with breaking into developer roles?
-5. How were bootcamps assisting with increasing diversity in tech careers?
+I was interested in answering the following questions:
 
-The full set of files related to this course are owned by Udacity, so they are not publicly available here.  However, you can see pieces of the analysis here.  This README also serves as a template for students to follow in creating their own project README files.
+1. What are the top selling categories, product size and colors for Summer?
+2. Which key variables/factors successfully predict the number of units sold?
+3. Can you build a machine learning model to predict the number of units sold?
 
 
 ## File Descriptions <a name="files"></a>
 
-There are 3 notebooks available here to showcase work related to the above questions.  Each of the notebooks is exploratory in searching through the data pertaining to the questions showcased by the notebook title.  Markdown cells were used to assist in walking through the thought process for individual steps.  
+There is just one single notebook here to showcase work related to answer the above questions. This notebook has markdown cells to guide or walk-thru the thought process for each and every individual step. In addition, the data used for analysis and modeling was loaded as ".csv" file.
 
-There is an additional `.py` file that runs the necessary code to obtain the final model used to predict salary.
+Here's the link to actual data source:
+
+https://www.kaggle.com/jmmvutu/summer-products-and-sales-in-ecommerce-wish
+
 
 ## Results<a name="results"></a>
 
