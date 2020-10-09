@@ -1,3 +1,3 @@
-# udacity_data_scientist_nanodegree
+## Data Scientist Nanodegree
 
-This repository has all projects that I did as part of my Data Science Nanodegree at Udaycity.
+This repository has all projects that I did as part of my Data Science Nanodegree at Udacity.
