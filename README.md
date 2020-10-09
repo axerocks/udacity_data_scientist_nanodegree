@@ -1,11 +1,9 @@
-#### Data Scientist Nanodegree
+## Data Scientist Nanodegree
 
 This repository has all projects that I did as part of my Data Science Nanodegree at Udacity.
 
-###################################################################################################################################################################################
-###########################################################Project 1###############################################################################################################
 
-## Write a Data Science Blog
+# Project1 - Write a Data Science Blog
 
 # Choose A Dataset of Your Own
 You are welcome to use Kaggle or another platform (or your own data) to create a blog and Github post instead of using the datasets discussed above.
