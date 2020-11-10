@@ -3,8 +3,7 @@
 1. [Installation](#installation)
 2. [Project Motivation](#motivation)
 3. [File Descriptions](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
+4. [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -31,10 +30,11 @@ The objective is to analyze data from Figure Eight to build a model for an API t
 
 This project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
-Below are a few screenshots of the web app.
+This is the frontpage:
+![Alt text](https://github.com/janierkkilae/Disaster-Response-Pipelines/blob/master/Screenshot1.PNG?raw=true "Screenshot1")
 
-<img src="assets/disaster-response-project1.png" width="80%" alt="disaster response project web app">
-<img src="assets/disaster-response-project2.png" width="80%" alt="disaster response project web app">
+By inputting a word, you can check its category:
+![Alt text](https://github.com/janierkkilae/Disaster-Response-Pipelines/blob/master/Screenshot2.PNG?raw=true "Screenshot2")
 
 ## Files
 
@@ -55,4 +55,4 @@ Below are a few screenshots of the web app.
 
 ## Acknowledgements
 
-I wish to thank [Figure Eight](https://www.figure-eight.com/) for dataset, and thank [Udacity](https://www.udacity.com/) for advice and review.
+I wish to thank [Figure Eight](https://www.figure-eight.com/) for the dataset, and thank [Udacity](https://www.udacity.com/) for advice and review.
