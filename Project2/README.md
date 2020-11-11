@@ -56,4 +56,4 @@ By inputting a word, you can check its category:
 
 ## Acknowledgements
 
-I wish to thank [Figure Eight](https://www.figure-eight.com/) for the dataset, and thank [Udacity](https://www.udacity.com/) for advice and review. In addition, I'd like to thank https://github.com/matteobonanomi for providing a good source of reference for Flask webapp creation.
+I wish to thank [Figure Eight](https://www.figure-eight.com/) for the dataset, and thank [Udacity](https://www.udacity.com/) for advice and review. In addition, I'd like to thank Matteo Bonanomi https://github.com/matteobonanomi for providing me with a good source of reference for Flask Web App creation.
