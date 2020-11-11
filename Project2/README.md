@@ -52,7 +52,8 @@ By inputting a word, you can check its category:
   - Trains and tunes a model using GridSearchCV
   - Outputs results on the test set
   - Exports the final model as a pickle file
+- workspace/app/run.py: A Flask Webapp which will display classification results of a new message in several categories.
 
 ## Acknowledgements
 
-I wish to thank [Figure Eight](https://www.figure-eight.com/) for the dataset, and thank [Udacity](https://www.udacity.com/) for advice and review.
+I wish to thank [Figure Eight](https://www.figure-eight.com/) for the dataset, and thank [Udacity](https://www.udacity.com/) for advice and review. In addition, I'd like to thank https://github.com/matteobonanomi for providing a good source of reference for Flask webapp creation.
