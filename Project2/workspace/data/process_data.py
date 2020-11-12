@@ -54,6 +54,8 @@ def clean_data(df):
     
     df = pd.concat([df,categories],axis=1)
     
+    df = df[df.related != 2]
+    
     df=df.drop_duplicates()
     
     print(('Number of Duplicates: {}').format(sum(df.duplicated())))
@@ -70,7 +72,7 @@ def save_data(df, database_filename):
     """Saves DataFrame (df) to database path"""
     name = 'sqlite:///' + database_filename
     engine = create_engine(name)
-    df.to_sql('messages_disaster_final', engine, index=False)
+    df.to_sql('messages_disaster_final', engine, index=False,if_exists='replace')
     
 
 def main():
