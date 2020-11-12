@@ -30,7 +30,6 @@ pd.set_option('display.max_colwidth', -1)
 
 
 def load_data(database_filepath):
-    
     """
        Function:
        load data from database
@@ -40,7 +39,7 @@ def load_data(database_filepath):
        X (DataFrame) : Message features dataframe
        Y (DataFrame) : target dataframe
        category (list of str) : target labels list
-       """
+    """
     engine = create_engine('sqlite:///{}'.format(database_filepath))
     df = pd.read_sql_table('messages_disaster_final', engine)
     X = df['message']  # Message Column
@@ -52,6 +51,14 @@ def load_data(database_filepath):
 
 
 def tokenize(text):
+    """
+       Function:
+       Cleaning of Text by using Tokenization and Lemmatization steps.
+       Args:
+       text: the actual message
+       Return:
+       clean_tokens : Text is cleaned for analysis.
+    """
 
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
@@ -63,6 +70,13 @@ def tokenize(text):
     pass
 
 class StartingVerbExtractor(BaseEstimator, TransformerMixin):
+    
+    """ 
+    This is a class for performing Parts of Speech Tagging or extracting the starting verb
+    of sentence. This can be used as an additional variable for modeling.
+    
+    """
+  
 
     def starting_verb(self, text):
         sentence_list = nltk.sent_tokenize(text)
@@ -82,6 +96,12 @@ class StartingVerbExtractor(BaseEstimator, TransformerMixin):
 
 
 def build_model():
+    """
+    Build Model function
+    
+    This function output is a Scikit ML Pipeline that process text messages
+    according to NLP best-practice and apply a classifier.
+    """
     pipeline_ada = Pipeline([
         ('features', FeatureUnion([
             ('text_pipeline', Pipeline([
@@ -95,7 +115,7 @@ def build_model():
     
     parameters_ada = {
         'clf__estimator__n_estimators': [20,50,70],
-        'clf__estimator__learning_rate': [0.1,0.5]}
+        'clf__estimator__learning_rate': [0.1,0.2,0.5]}
  
  
     cv = GridSearchCV(pipeline_ada, param_grid=parameters_ada)
@@ -105,6 +125,18 @@ def build_model():
 
 
 def evaluate_model(model, X_test, Y_test, category_names):
+    """
+    Evaluate Model function
+    
+    This function applies ML pipeline to a test set and prints out
+    model performance (f1 score, precision and recall) for each category
+    
+    Arguments:
+        model -> Scikit ML Pipeline
+        X_test -> test features
+        Y_test -> test labels
+        category_names -> label names (multi-output)
+    """
     
     y_pred = model.predict(X_test)
     results = pd.DataFrame(columns=['Category', 'f_score', 'precision', 'recall'])
@@ -124,6 +156,16 @@ def evaluate_model(model, X_test, Y_test, category_names):
 
 
 def save_model(model, model_filepath):
+    """
+    Save Model function
+    
+    This function saves trained model as Pickle file, to be loaded later.
+    
+    Arguments:
+        model -> GridSearchCV or Scikit Pipelin object
+        model_filepath -> destination path to save .pkl file
+    
+    """
     with open(model_filepath, 'wb') as f:
         pickle.dump(model, f)
     pass
