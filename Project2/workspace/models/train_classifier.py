@@ -151,6 +151,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
     print('Aggregated f_score:', results['f_score'].mean())
     print('Aggregated precision:', results['precision'].mean())
     print('Aggregated recall:', results['recall'].mean())
+    print(results)
     return results
     pass
 
