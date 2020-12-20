@@ -14,7 +14,7 @@ You'll need to install PySpark library for doing string-to-string matching. All 
 ## Project Motivation<a name="motivation"></a>
 To identify the users that could potentially cancel their account and leave the service. By identifying this population upfront, we could incentivize them by giving them discounts or other rewards. This could make them stick, giving us a loyal customer base which is key for a company’s growth. 
 
-In addition, 
+In addition, I was personally interested in learning and applying Spark technology to the problem that's very relevant in today's scenario.
 
 
 ## File Descriptions <a name="files"></a>
@@ -28,3 +28,5 @@ Results are posted on the Medium blog. Here's the link: https://akshay-mahesh-ja
 
 
 ## Acknowledgements<a name="licensing"></a>
+
+I'd like to thank Udacity team for the opportunity they provided me to work on this project. In addition, 
