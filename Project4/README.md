@@ -28,4 +28,4 @@ Results are posted on the Medium blog. Here's the link: https://akshay-mahesh-ja
 
 ## Acknowledgements<a name="licensing"></a>
 
-I'd like to thank Udacity team for the opportunity they provided me to work on this project.
+I'd like to thank Udacity team for the opportunity they provided me to work on this project. It was a great experience.
