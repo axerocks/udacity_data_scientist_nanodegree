@@ -12,7 +12,7 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 ## Project 1 - Write a Data Science Blog <a name="Project1"></a>
 
-!(https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project1)
+![(https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project1)]
 
 
 
