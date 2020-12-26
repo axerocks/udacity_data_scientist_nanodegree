@@ -12,18 +12,18 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 ## Project 1 - Write a Data Science Blog <a name="Project1"></a>
 
-![Alt text](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project1)
+(https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project1)
 
 
 
 ## Project 2 - NLTK Modeling <a name="Project2"></a>
 
-![Alt text](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project2)
+(https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project2)
 
 
 ## Project 3 - Recommendation Engine <a name="Project3"></a>
 
-![Alt text](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project3)
+(https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project3)
 
 
 ## Project 4 - Capstone Project <a name="Project4"></a>
