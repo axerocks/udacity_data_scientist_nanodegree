@@ -5,10 +5,10 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 ### Table of Contents
 
-1. [Project1](#Machine Learning)
-2. [Project2](#NLTK Modeling)
-3. [Project3](#Recommendation Engine)
-4. [Project4](#Capstone)
+1. [Project1]
+2. [Project2]
+3. [Project3]
+4. [Project4]
 
 ## Project 1 - Write a Data Science Blog <a name="Project1"></a>
 
