@@ -4,6 +4,4 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 Here's the certificate of completion from Udacity:
 
-
-This is the frontpage:
-![Alt text](https://github.com/janierkkilae/Disaster-Response-Pipelines/blob/master/Screenshot1.PNG?raw=true "Screenshot1")
+![Alt text](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/UDACITY_NANODEGREE_CERTIFICATE.pdf)
