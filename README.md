@@ -5,7 +5,7 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 ### Table of Contents
 
-1. Project1 <a name="Project1"></a>
+1. [Project1] <a name="Project1"></a>
 2. [Project2]
 3. [Project3]
 4. [Project4]
