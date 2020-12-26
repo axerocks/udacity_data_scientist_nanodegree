@@ -18,7 +18,7 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 
 ## Project 2 - NLTK Modeling <a name="Project2"></a>
 
-![Project w](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project2)
+![Project 2](https://github.com/axerocks/udacity_data_scientist_nanodegree/blob/main/Project2)
 
 
 ## Project 3 - Recommendation Engine <a name="Project3"></a>
