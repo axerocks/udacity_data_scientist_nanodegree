@@ -10,16 +10,16 @@ This repository has all projects that I did as part of my Data Science Nanodegre
 3. [Project3](#Recommendation Engine)
 4. [Project4](#Capstone)
 
-## Installation <a name="Project1"></a>
+## Project 1 - Write a Data Science Blog <a name="Project1"></a>
 
 
-## Installation <a name="Project2"></a>
+## Project 2 - NLTK Modeling <a name="Project2"></a>
 
 
-## Project Motivation<a name="Project3"></a>
+## Project 3 - Recommendation Engine <a name="Project3"></a>
 
 
-## Files
+## Project 4 - Capstone Project <a name="Project4"></a>
 
 
 Here's the certificate of completion from Udacity:
